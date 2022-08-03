@@ -1,0 +1,12 @@
+.kitchenPop:hover {
+  height: 56vh;
+  width: 100%;
+  transition: all ease 600ms;
+  cursor: pointer;
+}
+.other:hover {
+  height: 56vh;
+  width: 96%;
+  transition: all ease 600ms;
+  cursor: pointer;
+}

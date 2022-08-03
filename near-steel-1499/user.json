@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "email": "j@gmail.com",
+      "password": "123456",
+      "token": "2e5f4ecc-68ed-4d39-af08-11c394d74b0c",
+      "id": 1
+    },
+    {
+      "email": "js@gmail.com",
+      "password": "12345",
+      "token": "335c3a16-cbd0-448a-abeb-08af05c3dab7",
+      "id": 2
+    },
+    {
+      "email": "sam123@gmail.com",
+      "password": "123123",
+      "token": "4f622fc2-993f-4d49-87cf-808d8bb1bef4",
+      "id": 3
+    }
+  ]
+}

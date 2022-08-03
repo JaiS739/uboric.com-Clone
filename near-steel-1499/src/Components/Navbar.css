@@ -1,0 +1,275 @@
+.navbar {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.first_row {
+  width: 100%;
+  height: 40px;
+  background-color: #1e516c;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+  /* border:1px solid blue; */
+}
+.second_row {
+  width: 100%;
+
+  height: 130px;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+}
+.search_box {
+  width: 40%;
+}
+.second_box_main {
+  width: 59%;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+.logo_image {
+  height: 80px;
+  width: 80%;
+  margin-left: 10px;
+  margin-top: 2%;
+}
+.box {
+  width: 90%;
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 50px;
+  border-radius: 2px;
+  margin-top: 2%;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  .second_row {
+    flex-direction: column;
+    height: 150px;
+  }
+  .search_box {
+    /* border:1px solid red; */
+    width: 99%;
+    padding-left: 0.5rem;
+  }
+  .box {
+    /* border: 4px solid green; */
+    width: 95%;
+  }
+  .second_box_main {
+    width: 99%;
+    margin-top: 2%;
+  }
+}
+
+/* border: "1px solid black";
+padding: "5px";
+backgroundColor: "rgb(66,66,66)",
+color: "white",
+cursor: "pointer", */
+.iconsDiv {
+  width: 30%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.CartCount {
+  margin-top: 0;
+}
+.CartCount > p {
+  font-size: 25px;
+  padding: 5px;
+}
+
+@media (max-width: 1000px) {
+  .second_row {
+    flex-direction: column;
+  }
+
+  .logo_image {
+    height: 60px;
+    width: 80%;
+  }
+}
+.orig {
+  background-image: radial-gradient(ellipse at center, #fff, #fff);
+  border: 1px solid #000;
+  /* border: 1px solid red; */
+  border-radius: 3px;
+  width: 90%;
+  padding: 5px;
+  height: 95%;
+}
+.second {
+  margin-left: 450px;
+  margin-top: 3%;
+  color: #1e516c;
+}
+.second:hover {
+  color: #ffce61;
+}
+.third {
+  margin-left: 30px;
+  margin-top: 3%;
+  /* border:1px solid blue; */
+  color: #1e516c;
+}
+.third:hover {
+  color: #ffce61;
+}
+.bar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+  /* border:1px solid blue; */
+  align-items: center;
+  gap: 0.1rem;
+}
+@media (max-width: 800px) {
+  .bar {
+    flex-direction: column;
+  }
+}
+.bar :div {
+  font-family: sans-serif;
+  /* border:1px solid brown; */
+  font-size: 40px;
+}
+
+.bar1 {
+  font-size: 17px;
+  font-family: Lato, sans-serif;
+  /* border:1px solid blue; */
+  margin-left: 10px;
+  text-decoration-line: none;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 0.5rem 1rem;
+}
+@media (max-width: 800px) {
+  .bar1 {
+    margin-bottom: 1px;
+  }
+}
+.bar1:hover {
+  background-color: black;
+  color: white;
+  /* height: 40px; */
+}
+.drop_down {
+  text-align: center;
+  font-size: 17px;
+  color: black;
+  position: relative;
+  margin-bottom: 3%;
+  display: inline-block;
+  font-family: Lato, sans-serif;
+}
+.drop_down_content {
+  display: none;
+}
+.drop_down:hover {
+  color: white;
+}
+
+.drop_down:hover .drop_down_content {
+  display: block;
+}
+.drop_down_content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  text-align: left;
+  z-index: 1;
+  border-top: none;
+
+  /* border:1px solid red; */
+  width:900px;
+  height:250px;
+  /* line-height:18px; */
+
+  white-space: nowrap;
+  cursor: pointer;
+  max-height: 600px;
+  margin-right: 100%;
+}
+.content {
+  color: grey;
+  border: 0.5px solid #e4e4e4;
+  width: 250px;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: Latp, sans-serif;
+  padding-left: 8px;
+}
+.tag1 {
+  border-bottom: 0.5px solid #e4e4e4;
+  width: 250px;
+  margin-left: 0px;
+  padding-bottom: 8px;
+}
+/* .tag2{
+    border-bottom: 0.5px solid #E4E4E4;
+    width: 250px;
+    padding-top:8px;
+    margin-left: 0px;
+
+} */
+
+.tag2:hover {
+  color: black;
+}
+.tag1:hover {
+  color: black;
+}
+.drop_down_content1 {
+  display: none;
+}
+
+.tag1:hover .drop_down_content1 {
+  display: inline-flex;
+}
+.drop_down_content1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  text-align: left;
+  z-index: 1;
+  border-top: none;
+  width: 600px;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-left: 160px;
+}
+.content1 {
+  width: 800px;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: Latp, sans-serif;
+  margin-left: 30px;
+}
+.sub_content {
+  display: flex;
+  justify-content: space-around;
+}
+.wear {
+  color: black;
+  font-weight: bold;
+}
+.wear1 {
+  color: black;
+}
+.contect {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+}

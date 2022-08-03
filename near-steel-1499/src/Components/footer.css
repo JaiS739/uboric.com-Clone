@@ -1,0 +1,263 @@
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+} */
+.option{
+    display: flex;
+    /* justify-content: space-between; */
+    gap:10px;
+    /* padding: 0 0 0 150px; */
+    margin-bottom: 300px;
+   
+    
+    
+}
+.option div{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+  
+.rigthttik{
+    padding: 0 5px 0 0;
+    font-weight: 500;
+    font-size: 22px;
+    font-stretch: expanded;
+    color: #096ba0;
+}
+
+
+
+
+    /* review part */
+    
+.reviewContainer{
+    background-color: #83751a;
+    align-items: center;
+    margin-top:10px;
+    padding-bottom: 100px;
+    text-align: center;
+    
+   
+  }
+  .carousel {
+    display: flex;
+    
+    width: 80%;
+    margin: auto;
+  
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+  }
+  @media only screen and (max-width:300px) {
+    .carousel {
+        display: inline;
+        margin: auto;
+        padding-left: 10%;
+
+    }
+}
+
+
+ 
+  .reviewCard {
+      margin-top:20px;
+    width: 33%;
+    gap: 2%;
+    justify-content: center;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Lato,sans-serif;
+  }
+  
+  @media only screen and (max-width:300px) {
+    .reviewCard{
+      
+        margin: auto;
+
+    
+    }
+}
+
+
+  
+  .reviewHeading{
+      padding-top: 40px;
+      color: white;
+  }
+
+
+  @media only screen and (max-width:300px) {
+     .reviewHeading {
+        font-size: 12px;
+        
+
+    }
+}
+
+@media only screen and (min-width:301px) and (max-width:720px) {
+    .reviewHeading {
+        font-size: 15px;
+
+    }
+}
+
+
+
+  .btn{
+    background-color: #ffce61;
+    border-radius: 5px;
+    border: transparent;
+    padding: 8px 15px 8px 15px;
+    font-size:large;
+    font-weight: 400;
+    font-family: lato,sans-serif;
+  
+  }
+  .btn:hover{
+    background-color: rgb(255, 255, 255);
+  }
+  
+
+
+  .Footer{
+   
+   
+    background-color: black;
+    
+   
+}
+
+
+.img1{
+    margin-bottom: 20px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media only screen and (min-width:0px) and (max-width:320px) {
+   
+    .img1>img {
+       width: 80px;
+       height: 50px;
+    
+        }
+    }
+  
+
+.footertext{
+    /* display:grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap:30px;
+    margin: auto;
+    color:white;
+
+    font-size: medium;
+    font-weight:600;
+    width: 400px; */
+
+    display: flex;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 300;
+    color: white;    
+    
+    margin: auto;
+    
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+@media only screen and (min-width:301px) and (max-width:720px) {
+   
+.footertext {
+   grid-template-columns: repeat(1,1fr);
+   padding: auto;
+
+    }
+}
+
+.reserved{
+    text-align: center;
+    color: white;
+   ;
+}
+.contect{
+    margin:auto;
+    width:20%;
+    display: flex;
+    color: white;
+   gap: 5px;
+   
+  ;
+    
+}
+.FacebookIcon{
+    font-size: 30px;
+    padding: 0 4px 0 8px;
+    border-radius: 30px;
+     margin-top:6px;
+     color: black;
+    
+     margin-left:6px;
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    border-radius: 48%;
+    background-color:#ffce61;
+   
+}
+.icons1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:#ffce61;
+    margin-left:20px;
+}
+.insta{
+    font-size: 30px;
+   padding: 4px 4px 2px 7px;
+   border-radius: 30px;
+    margin-top:6px;
+    color: black;
+   
+    margin-left:6px;
+
+}
+.plus{
+    font-size: 30px;
+   font-weight: 700;
+   padding: 4px 0 0 7px;
+    border-radius: 30px;
+     margin-top:6px;
+     color: white;
+    
+     margin-left:6px;
+}
+.icons:hover{
+    background-color: white;
+}
+.icons1:hover{
+    background-color: white;
+}
+
+.icons2:hover{
+    background-color: rgba(56, 122, 166, 0.577);
+}
+
+.icons2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:#e85a18;
+   
+}

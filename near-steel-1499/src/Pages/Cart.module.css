@@ -1,0 +1,21 @@
+.amazingOffers {
+  animation: offerAnimation 4s ease-in-out infinite;
+  color: white;
+}
+@keyframes offerAnimation {
+  0% {
+    background-color: #339ebf;
+  }
+  25% {
+    background-color: #336ebf;
+  }
+  50% {
+    background-color: rgb(201, 25, 17);
+  }
+  75% {
+    background-color: #db4722;
+  }
+  100% {
+    background-color: #339ebf;
+  }
+}

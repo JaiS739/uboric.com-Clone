@@ -1,0 +1,3 @@
+#dashboardContainer > div:hover > svg {
+  opacity: 1;
+}
